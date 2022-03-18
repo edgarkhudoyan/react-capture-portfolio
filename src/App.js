@@ -1,5 +1,5 @@
 // Import Pages
-import AboutUs from './components/pages/AboutUs';
+import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
