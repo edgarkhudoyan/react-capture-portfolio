@@ -14,9 +14,9 @@ function App() {
       <GlobalStyle />
       <Nav />
       <Routes>
-        <Route exact path='/' element={<AboutUs />} />
-        <Route exact path='/work' element={<OurWork />} />
-        <Route exact path='/contact' element={<ContactUs />} />
+        <Route path='/' element={<AboutUs />} />
+        <Route path='/work' element={<OurWork />} />
+        <Route path='/contact' element={<ContactUs />} />
       </Routes>
     </div>
   );
